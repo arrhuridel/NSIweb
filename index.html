@@ -37,5 +37,22 @@
                 <td>47,35 millions</td>
             </tr>
          </table>
+	    
+	    <h1>FORMULAIRE</h1>
+    <h3>Prénom :</h3>
+    <select name="prenom">
+      <option value="paul">Paul</option>
+      <option value="pierre">Pierre</option>
+    </select>
+    <p>
+    <form action="recolte_donnees.php" method="post">
+      <h3>Fruits favoris :</h3>
+      <input type="checkbox" name="fruits[]" id="">pomme <br>
+      <input type="checkbox" name="fruits[]" id="">banane <br>
+      <input type="checkbox" name="fruits[]" id="">poire<br>
+      <input type="checkbox" name="fruits[]" id="">abricot <br>
+      </p>
+    </form>
+  <input type="submit" value="valider">
     </body>
 </html>
